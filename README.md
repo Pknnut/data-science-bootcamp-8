@@ -15,3 +15,4 @@ I've learned a lot of stuff related to data science skills. This bootcamp has 10
 - Essential Python for Data Analysis
 - Dashboard
 
+You can find me on Linkedin https://www.linkedin.com/in/pakorn-sarapeepitayanon-4b5297260/
