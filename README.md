@@ -1,4 +1,4 @@
-# data-science-bootcamp-8
+# Data-science-bootcamp-8
 My Data portfolio for data analyst role
 
 I've learned a lot of stuff related to data science skills. This bootcamp has 10 sprints as follows.
