@@ -1,0 +1,33 @@
+rps <- function() {
+  win_count <- 0
+  
+  for (game in 1:5) {
+    print("What is your move? (Rock/Paper/Scissors)")
+    player_move <- tolower(readLines("stdin", n = 1))
+    computer_move <- sample(c("rock", "paper", "scissors"), 1)
+    print(computer_move)
+    
+    if (player_move == computer_move) {
+      message("It's a tie!")
+    } else if (
+      (player_move == "rock" && computer_move == "scissors") ||
+      (player_move == "paper" && computer_move == "rock") ||
+      (player_move == "scissors" && computer_move == "paper")
+    ) {
+      message("You win!")
+      win_count <- win_count + 1
+    } else {
+      message("You lose!")
+    }
+  }
+  
+  message("Number of wins:", win_count)
+  
+  if (win_count >= 3) {
+    message("Congratulations! You won ", win_count, " out of 5 games.")
+  } else {
+    message("You did not win enough games. Better luck next time!")
+  }
+}
+
+rps()
