@@ -1,0 +1,46 @@
+Bootcamp_pizza <- function () {
+  flavors <- c("Hawaiian","Anchovy and Olives","Pepperoni","Meat Feast")
+  price_flavors <- c(199,229,249,269)
+  sizes <- c("Small","Medium","Large")
+  price_sizes <- c(199,249,299)
+  
+  selected_flavor <- ""
+  selected_size <- ""
+  
+  while (TRUE) {
+    print("Welcome to Bootcamp pizza!!")
+    print("what would you like to order ?")
+    print("Hawaiian,Anchovy and Olives,Pepperoni,Meat Feast ?")
+    selected_flavor <- tolower(readLines("stdin", n=1))
+    if (selected_flavor %in% tolower(flavors))  {
+      message("Sure! flavor of pizza has been added to your order.")
+      break
+    } else {
+      message("I'm sorry, I didn't understand. Can you please rephrase your request?")  
+    }
+  }
+  print("-------------------------------------------------------")
+  while (TRUE) {
+    print("What size of pizza would you like?")
+    print("Small,Medium,Large")
+    selected_size <- tolower(readLines("stdin", n=1))
+    if (selected_size %in% tolower(sizes)) {
+      message ("The size of pizza has been selected")
+      break
+    } else {
+      message("I'm sorry, I didn't understand. Can you please rephrase your request?")
+    } 
+  }
+  
+  flavor_price <- price_flavors[tolower(flavors) == selected_flavor]
+  size_price <- price_sizes[tolower(sizes) == selected_size]
+  total_price <- flavor_price + size_price
+  
+  print("-------------------------------------------------------")
+  print("Your order summary:")
+  print(paste("Flavor:", flavors[tolower(flavors) == selected_flavor]))
+  print(paste("Size:", sizes[tolower(sizes) == selected_size]))
+  print(paste("Price:", total_price))
+}
+
+Bootcamp_pizza ()
