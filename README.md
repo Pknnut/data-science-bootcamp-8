@@ -1,18 +1,13 @@
-# Data-science-bootcamp-8
-My Data portfolio for data analyst role
+# Hi, I'm Pakorn
+I am currently working as a Business Operations Associate, with a strong passion for transitioning into a data analyst role. This portfolio highlights the foundational knowledge and skills I have gained through a data analytics bootcamp. Below are the key areas I have learned and developed during the program.
 
-I've learned a lot of stuff related to data science skills. This bootcamp has 10 sprints as follows.
-
-- Intro to Data Science
-- Spreadsheets
 - Database (SQL)
 - R Programming
 - Data Transformation
 - Data Visualization
-- Essential Statistics
-- Essential Machine Learning for Data Analysts
 - Python Programming
 - Essential Python for Data Analysis
-- Dashboard
 
-You can find me on Linkedin https://www.linkedin.com/in/pakorn-sarapeepitayanon-4b5297260/
+You can review my work in the projects section. 
+
+You can also connect with me on LinkedIn. https://www.linkedin.com/in/pakorn-sarapeepitayanon/
