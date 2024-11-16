@@ -1,5 +1,5 @@
 # Hi, I'm Pakorn
-I am currently working as a Business Operations Associate, with a strong passion for transitioning into a data analyst role. This portfolio highlights the foundational knowledge and skills I have gained through a data analytics bootcamp. 
+I am currently working as a Business Operations Associate, with a strong passion for transitioning into a analyst role. This portfolio highlights the foundational knowledge and skills I have gained through a data analytics bootcamp. 
 
 Below are the key areas I have learned and developed during the program.
 - R Programming
